@@ -1,0 +1,83 @@
+#produtos-promocao{
+    width: 100%;
+    min-height: 300px;
+    padding: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    width: 250px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--etiqueta);
+    margin: 35px;
+}
+
+.img-card {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-card img{
+    width: 180px;
+    height: 160px;
+}
+
+.card .descricao-card{
+    width: 100%;
+    height: 900px;
+    margin: 5px 0px;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .valor-card{
+    width: 100%;
+    height: 50px;
+    font-size: 1.8em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px ;
+}
+
+.card .button-card{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+
+.button-card .button {
+    width: 100px;
+    border: none;
+    background: none;
+    font-size: 0.9em;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    transition: 2s;
+    color: var(--etiqueta-dois);
+}
+
+.button-card .button:hover {
+    color: var(--etiqueta);
+    font-weight: bold;
+}
+
+

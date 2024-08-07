@@ -1,0 +1,214 @@
+/*ZERANDO TODOS ELEMENTOS*/
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*DEFININDO PROPRIEDADES E VALORES PADRÃO*/
+:root {
+    --segundo-plano: #3CB371;
+    --segundo-plano-menu: #E0EEEE;
+    --cor-texto: #ffffff;
+    --etiqueta: #FF4500;
+    --etiqueta-dois:#911404;
+}
+
+/*CONFIGURANDO ELEMENTO PAI*/
+#geral {
+    width: 1500px;
+    min-height: 800px;
+    margin: auto;
+
+}
+
+/*CONFIGURANDO ELEMENTO FILHO*/
+header,
+section,
+footer,
+nav {
+    width: 100%;
+}
+
+/*CONFIGURANDO CABEÇALHO*/
+#nav-menu {
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 40px;
+}
+
+#cabecalho-logo {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho-logo {
+    color: var(--etiqueta);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#logo {
+    width: 20%;
+    cursor: pointer;
+}
+
+#titulo{
+    font-size: 1.6em;
+    text-transform: uppercase;
+}
+
+#subtitulo{
+    font-size: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    background-color: var(--etiqueta);
+    color: var(--cor-texto);
+    padding: 5px 25px;
+    margin: 10px 0px;
+}
+
+#pesquisa {
+    width: 60%;
+}
+
+#pesquisa input{
+    width: 550px;
+    padding: 15px;
+    color: var(--etiqueta);
+    border: 1px solid var(--etiqueta);
+    border-radius: 8px;
+}
+
+#cabecalho-forms {
+    width: 10%;
+}
+
+#cabecalho-carrinho {
+    width: 10%;
+}
+
+/*FORMATANDO MENUS*/
+#cabecalho-setor,
+#cabecalho-subsetor {
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--etiqueta);
+    gap: 3px;
+}
+
+.menu li {
+    display: inline;
+    padding: 5px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: capitalize;
+    color: var(--cor-texto);
+}
+
+.menu li a {
+    color: var(--etiqueta);
+}
+
+.menu li .button, .btn-todos, .button-card .button {
+    width: 100px;
+    border: none;
+    background: none;
+    font-size: 0.9em;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    transition: 2s;
+    color: var(--cor-texto);
+}
+
+.menu li .button:hover, .button-card .button:hover {
+    color: var(--cor-texto);
+    font-weight: bold;
+}
+
+.menu li .btn-todos {
+    color: var(--etiqueta);
+    background-color: var(--cor-texto);
+}
+
+.menu li .btn-todos:hover {
+    color: var(--etiqueta);
+    font-weight: bold;
+}
+
+/*CORPO DO DOCUMENTO*/
+section{
+    min-height: 650px;
+}
+
+#conteudo{
+    min-height: 100%;
+}
+
+#logos{
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    background-color: var(--etiqueta);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5em;
+    color: var(--cor-texto);
+    cursor: pointer;
+}
+
+/*FORMATANDO O RODAPÉ*/
+footer{
+    color: var(--etiqueta);
+    height: 400px;
+    padding: 40px;
+    font-size: 0.8em;
+}
+
+#rodape-listas{
+    display: flex;
+    align-items:flex-start;
+    justify-content:space-between;
+}
+
+.conteiner-rodape{
+    min-height: 250px;
+    width: 25%;
+
+}
+
+.conteiner-rodape h3{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.conteiner-rodape ul li{
+    padding: 4px;
+    margin: 30px;
+}
+
+#copyright{
+    padding: 40px;
+    text-align: center;
+}

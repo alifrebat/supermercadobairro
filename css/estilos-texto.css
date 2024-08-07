@@ -1,0 +1,18 @@
+#texto{
+    width: 750px;
+    min-height: 700px;
+    margin: auto;
+    color: var(--etiqueta);
+}
+
+h2{
+    text-align: center;
+    padding: 20px 0px;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 1.5em;
+    text-align: justify;
+    line-height: 35px;
+}
